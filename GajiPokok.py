@@ -179,10 +179,6 @@ elif tipe_pegawaii == "Pegawai Negeri Sipil (PNS)" and golongan_pegawaii == "Gol
 elif tipe_pegawaii == "Pegawai Negeri Sipil (PNS)" and golongan_pegawaii == "Golongan Id" and 27 <= masa_kerjaa <= 27:
   st.warning ("Gaji Pokoknya adalah 2.901.400")
    
-tipe_pegawaii = st.selectbox(''':blue[Masukan Tipe Pegawai]''', tipe_pegawai)
-golongan_pegawaii = st.selectbox(''':blue[Masukan Golongan]''', golongan_pegawai)
-masa_kerjaa = st.selectbox(''':blue[Masukan Masa Kerja (Dalam Tahun)]''',masa_kerja)
-
 # Golongan IIa 
 elif tipe_pegawaii == "Pegawai Negeri Sipil (PNS)" and golongan_pegawaii == "Golongan IIa" and 0 <= masa_kerjaa <= 0:
   st.warning ("Gaji Pokoknya adalah 2.184.000")
