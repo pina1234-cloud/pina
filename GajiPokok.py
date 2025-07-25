@@ -869,7 +869,7 @@ elif tipe_pegawaii == "Pegawai Negeri Sipil (PNS)" and golongan_pegawaii == "Gol
 elif tipe_pegawaii == "Pegawai Negeri Sipil (PNS)" and golongan_pegawaii == "Golongan IVe" and 32 <= masa_kerjaa <= 32:
   st.warning ("Gaji Pokoknya adalah 6.373.200")
 
-PPPK
+#PPPK
 
 #GOLONGAN I
 elif tipe_pegawaii == "Pegawai Pemerintah dengan Perjanjian Kerja (PPPK)" and golongan_pegawaii == "Golongan I" and 0 <= masa_kerjaa <= 1:
