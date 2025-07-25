@@ -569,7 +569,7 @@ elif tipe_pegawaii == "Pegawai Negeri Sipil (PNS)" and golongan_pegawaii == "Gol
 elif tipe_pegawaii == "Pegawai Negeri Sipil (PNS)" and golongan_pegawaii == "Golongan IIId" and 14 <= masa_kerjaa <= 15:
   st.warning ("Gaji Pokoknya adalah 3.919.100")
 
- elif tipe_pegawaii == "Pegawai Negeri Sipil (PNS)" and golongan_pegawaii == "Golongan IIId" and 16 <= masa_kerjaa <= 17:
+elif tipe_pegawaii == "Pegawai Negeri Sipil (PNS)" and golongan_pegawaii == "Golongan IIId" and 16 <= masa_kerjaa <= 17:
   st.warning ("Gaji Pokoknya adalah 4.042.500")
   
 elif tipe_pegawaii == "Pegawai Negeri Sipil (PNS)" and golongan_pegawaii == "Golongan IIId" and 18 <= masa_kerjaa <= 19:
