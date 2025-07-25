@@ -8,7 +8,9 @@ st.warning("Ini adalah aplikasi untuk mengecek Gaji Pokok Berdasarkan Masa Kerja
 tipe_pegawai = ["Pilih Tipe Pegawai", "Pegawai Negeri Sipil (PNS)", "Pegawai Pemerintah dengan Perjanjian Kerja (PPPK)"]
 golongan_pegawai = ["Pilih Golongan",
                  "Golongan Ia",
-                 "Golongan Ib"]
+                 "Golongan Ib",
+                   ,
+                   ]
 masa_kerja = ["Pilih Masa Kerja", 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33]
                  
 
@@ -872,7 +874,7 @@ elif tipe_pegawaii == "Pegawai Negeri Sipil (PNS)" and golongan_pegawaii == "Gol
 #PPPK
 
 #GOLONGAN I
-elif tipe_pegawaii == "Pegawai Pemerintah dengan Perjanjian Kerja (PPPK)" and golongan_pegawaii == "Golongan I" and 0 <= masa_kerjaa <= 1:
+elif tipe_pegawaii == "Pegawai Pemerintah dengan Perjanjian Kerja (PPPK)" and golongan_pegawaii == "Golongan Ia" and 0 <= masa_kerjaa <= 1:
   st.warning ("Gaji Pokoknya adalah 1.938.500")
 
 elif tipe_pegawaii == "Pegawai Pemerintah dengan Perjanjian Kerja (PPPK)" and golongan_pegawaii == "Golongan I" and 2 <= masa_kerjaa <= 3:
